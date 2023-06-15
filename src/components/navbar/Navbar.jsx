@@ -4,6 +4,7 @@ import "./Navbar.css";
 
 const Navbar = () => {
   const [isSticky, setIsSticky] = useState(false);
+
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
